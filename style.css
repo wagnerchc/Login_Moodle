@@ -1,0 +1,19 @@
+:root {
+ --laranjaclaro(rgb(240,207,149))
+}
+
+body {
+    background: url(./imagens/bg_login_big.jpg) alt="Foto de Julia M Cameron no Pexels"; /* Foto de Julia M Cameron no Pexels
+	https://www.pexels.com/pt-br/foto/teclado-apple-comunicacao-conversa-divulgacao-4144923/ */
+    background-color: var(--laranjaclaro);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+
+}
+.btn:not(:disabled):not(.disabled), #page-grade-grading-manage .actions .action:not(:disabled):not(.disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:not(:disabled):not(.disabled), #rubric-rubric.gradingform_rubric .addcriterion:not(:disabled):not(.disabled) {
+	cursor: pointer;
+	display: none;
+}
