@@ -1,19 +1,43 @@
 :root {
- --laranjaclaro(rgb(240,207,149))
+
 }
 
 body {
-    background: url(./imagens/bg_login_big.jpg) alt="Foto de Julia M Cameron no Pexels"; /* Foto de Julia M Cameron no Pexels
-	https://www.pexels.com/pt-br/foto/teclado-apple-comunicacao-conversa-divulgacao-4144923/ */
-    background-color: var(--laranjaclaro);
-    height: 600px;
+    background-image: url('./imagens/10.jpg');
+    height: 100vh;
+    background-color: rgb(224, 183, 110);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
+}
 
+.logomarca {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    background-image: url("./imagens/logo_unicopel_fd_preto.png");
+    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12vw;
+    height: 80vh;
+    text-align: left;
 }
-.btn:not(:disabled):not(.disabled), #page-grade-grading-manage .actions .action:not(:disabled):not(.disabled), #rubric-rubric.gradingform_rubric #rubric-criteria .criterion .addlevel input:not(:disabled):not(.disabled), #rubric-rubric.gradingform_rubric .addcriterion:not(:disabled):not(.disabled) {
-	cursor: pointer;
-	display: none;
+
+.msg {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    border: 0;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgba(255, 255, 255, 0.788);
+    text-align: center;
+    font-size: 165%;
+    color: rgb(229,106,16);
+    font-family:Verdana, Geneva, Tahoma, sans-serif
 }
+
